@@ -5,11 +5,11 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div>
+    <div class="bg-light">
       <div class="sticky-top">
       <Header />
       </div>
-      <div class="container">
+      <div style={{minHeight:"100vh"}} class="container bg-white">
         <br></br>
       <Blog />
       <br></br>

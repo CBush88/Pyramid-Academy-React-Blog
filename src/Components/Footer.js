@@ -5,6 +5,8 @@ const Footer = () => {
     <div class="bg-dark text-light">
       <p style={{float:"left"}} class="text=bolder">LifeBlog</p>
       <p style={{textAlign:"center"}} class="text-center">© Copyright 2022 <a href="#!" class="text-white">LifeBlog Corp</a></p>
+      <div style={{clear:"both"}}></div>
+
     </div>
   )
 }
